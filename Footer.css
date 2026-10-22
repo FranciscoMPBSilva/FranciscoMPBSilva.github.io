@@ -1,8 +1,8 @@
 .footer {
     width: 100%;
     min-height: 50vh;
-    background-image: url('Imagens/footer.png');
     background-size: cover;
+    background-color:hsl(223, 53%, 7%);
     background-position: center;
     padding-top: 10vh;
     font-family: 'Quicksand';
@@ -78,8 +78,8 @@
 }
 
 .footer-icons a:hover {
-  background-color: #1f1f1f;
-  color: #D9AD5B;
+  background-color: #131f36;
+  color: #008cff;
   border-color: transparent;
   transform: translateY(-1vh);
 }
@@ -135,8 +135,8 @@
 }
 
 .footer-button a:hover {
-  background-color: #1f1f1f;
-  color: #D9AD5B;
+  background-color: #131f36;
+  color: #008cff;
   border-color: transparent;
   transform: translateY(-1vh);
 }

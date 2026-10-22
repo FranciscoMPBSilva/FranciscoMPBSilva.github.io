@@ -12,7 +12,7 @@ html {
 
 .FS {
   display: inline-block;
-  color: #D9AD5B;
+  color: #008cff;
   font-family: 'Quicksand';
   font-size: clamp(1vh, calc(5vw + 1vh), 2.5vh);
   font-weight: bold;
@@ -36,7 +36,7 @@ html {
   height: 10vh;
   min-height: 8vh;
   z-index: 1000;
-  background-color: hsla(220, 7%, 8%, 0.795);
+  background-color: hsla(219, 63%, 5%, 0.795);
   backdrop-filter: blur(5px);
   display: flex;
   justify-content: space-between;
@@ -51,7 +51,7 @@ html {
   left: 50%;
   width: 0;
   height: 0.1vh;
-  background-color: #D9AD5B;
+  background-color: #008cff;
   border-radius: 2px;
   transition: width 0.4s ease, left 0.4s ease;
 }
@@ -62,7 +62,7 @@ html {
 }
 
 .itens_nav a.active {
-  color: #D9AD5B;
+  color: #008cff;
 }
 
 .itens_nav ul {
@@ -145,9 +145,9 @@ html {
 
 .icons a:hover {
   transform: translateY(-1vh);
-  background-color: #D9AD5B;
-  border-color: #D9AD5B;
-  color: #1f1f1f;
+  background-color: #131f36;
+  border-color: transparent;
+  color: #008cff;
 }
 
 .dividor {
@@ -157,7 +157,7 @@ html {
   transform: translateX(-50%);
   width: 95%;
   height: 4px;
-  background-color: #D9AD5B;
+  background-color: #008cff;
   border: none;
 }
 
@@ -232,7 +232,7 @@ html {
   }
 
   .itens_nav a:hover {
-    color: #D9AD5B;
+    color: #008cff;
   }
 
   .right .itens_nav ul {
@@ -288,12 +288,12 @@ html {
     transform: translateX(-50%);
     font-family: 'Quicksand';
     font-size: clamp(2vh, calc(2vw + 1vh), 3vh);
-    color: #D9AD5B;
+    color: #008cff;
     font-weight: 600;
   }
 
   .FS {
-    color: #D9AD5B;
+    color: #008cff;
     padding-left: 2vh;
     padding-top: 4vh;
     padding-bottom: 5vh;
@@ -310,14 +310,14 @@ html {
   }
 
   .seta:hover {
-    color: #D9AD5B;
+    color: #008cff;
   }
 
   .left::after {
     content: "";
     width: 70vw;
     height: 0.1vh;
-    background-color: #D9AD5B;
+    background-color: #008cff;
     position: absolute;
     bottom: 0rem;
   }
@@ -335,7 +335,7 @@ html {
   }
 
   .menu-responsive i:hover {
-    color: #D9AD5B;
+    color: #008cff;
   }
 }
 
@@ -344,7 +344,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(228, 4%, 15%);
+  background: hsl(220, 4%, 15%);
 }
 
 ::-webkit-scrollbar-thumb {
